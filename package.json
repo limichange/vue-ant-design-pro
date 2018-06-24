@@ -26,8 +26,8 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "gh-pages": "^1.2.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16"
   },
   "eslintConfig": {
