@@ -40,9 +40,13 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/html-end-tags": "error",
+      "vue/require-default-prop": "error",
+      "vue/require-prop-types": "error"
     }
   },
   "postcss": {
