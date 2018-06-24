@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^2.5.16",
+    "vue-antd-ui": "^0.6.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
