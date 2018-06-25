@@ -11,6 +11,7 @@
     "site": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.5.16",
     "vue-antd-ui": "^0.6.1",
     "vue-router": "^3.0.1",
