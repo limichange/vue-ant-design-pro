@@ -1,6 +1,11 @@
 module.exports = {
   lintOnSave: true,
   css: {
-    modules: true
+    modules: true,
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true
+      }
+    }
   }
 }
