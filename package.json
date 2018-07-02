@@ -34,8 +34,13 @@
     "gh-pages": "^1.2.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "pre-commit": "^1.2.2",
     "vue-template-compiler": "^2.5.16"
   },
+  "pre-commit": [
+    "lint:fix",
+    "lint"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
