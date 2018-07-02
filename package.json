@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "dayjs": "^1.6.10",
+    "store": "^2.0.12",
     "vue": "^2.5.16",
     "vue-antd-ui": "^0.6.1",
     "vue-meta": "^1.5.0",
