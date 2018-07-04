@@ -3,10 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vau from 'vue-antd-ui'
+import api from './api'
 import 'vue-antd-ui/dist/antd.css'
 
 Vue.config.productionTip = false
 
+Vue.use(api)
 Vue.use(vau)
 
 new Vue({
