@@ -38,7 +38,6 @@
     "vue-template-compiler": "^2.5.16"
   },
   "pre-commit": [
-    "lint:fix",
     "lint"
   ],
   "eslintConfig": {
