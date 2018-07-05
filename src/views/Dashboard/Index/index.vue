@@ -1,14 +1,19 @@
 <template>
   <div :class="$style.Index">
     <a-card :bordered="false">
-      TODO
+      <MainChart />
     </a-card>
   </div>
 </template>
 
 <script>
+import MainChart from './MainChart'
+
 export default {
   name: 'Index',
+  components: {
+    MainChart
+  },
   data () {
     return {}
   },
