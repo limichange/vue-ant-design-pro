@@ -5,6 +5,7 @@ import store from './store'
 import vau from 'vue-antd-ui'
 import api from './api'
 import 'vue-antd-ui/dist/antd.css'
+import './filters'
 import './permission'
 
 Vue.config.productionTip = false
