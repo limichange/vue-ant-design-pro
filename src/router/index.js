@@ -1,15 +1,21 @@
 import Vue from 'vue'
+import dashboard from './dashboard'
 import Router from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    { path: '/', redirect: '/dashboard/index', hidden: true },
     {
-      path: '/',
-      name: 'home',
-      component: Home
-    }
+      path: '/login',
+      name: 'Login',
+      hidden: true,
+      meta: {
+        name: '登录'
+      },
+      component: () => import('@/views/Login')
+    },
+    dashboard
   ]
 })
