@@ -7,6 +7,7 @@ export default {
     menuList: [],
     token: getToken(),
     info: {
+      userName: '管理员',
       createTime: -1,
       email: '',
       id: -1,
@@ -24,14 +25,12 @@ export default {
   actions: {
     login ({ commit }, userInfo) {
       return api.admin.login(userInfo).then(res => {
-        const { token, user, menuList } = res
+        const { token } = res
 
         setToken(token)
 
         commit('update', {
-          token,
-          menuList,
-          info: user
+          token
         })
       })
     },

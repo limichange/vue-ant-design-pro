@@ -1,6 +1,8 @@
 <template>
   <div :class="$style.Index">
-    Index
+    <a-card :bordered="false">
+      TODO
+    </a-card>
   </div>
 </template>
 

@@ -12,7 +12,7 @@ export default {
     path: 'index',
     name: 'AdminDashboard',
     meta: {
-      name: '商店概况'
+      name: '总体概况'
     },
     component: () => import('@/views/Dashboard/Index')
   }]
