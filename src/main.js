@@ -13,6 +13,8 @@ Vue.config.productionTip = false
 Vue.use(api)
 Vue.use(vau)
 
+Vue.prototype.$bus = new Vue()
+
 new Vue({
   router,
   store,
