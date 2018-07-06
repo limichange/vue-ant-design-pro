@@ -1,6 +1,7 @@
 <template>
   <a-layout-sider
     :trigger="null"
+    :width="width"
     v-model="collapsed"
     class="sider"
     collapsible
@@ -52,6 +53,12 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'SiderMenu',
+  props: {
+    width: {
+      type: Number,
+      default: 200
+    }
+  },
   data () {
     return {
       selectedKeys: [],
