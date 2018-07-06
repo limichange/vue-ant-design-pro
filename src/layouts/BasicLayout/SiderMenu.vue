@@ -36,6 +36,7 @@
             <span>{{ route.meta.name }}</span>
           </span>
           <a-menu-item
+            v-if="!route.hidden"
             v-for="routeChildren in route.children"
             :key="routeChildren.name">
             {{ routeChildren.meta.name }}
