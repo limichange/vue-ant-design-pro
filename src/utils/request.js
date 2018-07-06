@@ -18,7 +18,7 @@ service.interceptors.request.use(config => {
 })
 
 service.interceptors.response.use(
-  response => response,
+  response => response.data,
   error => {
     if (error.code === 'ECONNABORTED') {
       antd.message.error('请求失败')
