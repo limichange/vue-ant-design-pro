@@ -4,7 +4,7 @@ export default {
   path: '/component',
   name: 'Component',
   meta: {
-    name: '概况',
+    name: '组件',
     icon: 'dashboard'
   },
   component: BasicLayout,
