@@ -5,7 +5,7 @@ export default {
   name: 'Component',
   meta: {
     name: '组件',
-    icon: 'dashboard'
+    icon: 'appstore-o'
   },
   component: BasicLayout,
   children: [{
