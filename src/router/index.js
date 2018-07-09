@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Meta from 'vue-meta'
 
 import dashboard from './dashboard'
+import component from './component'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -19,6 +20,7 @@ export default new Router({
       },
       component: () => import('@/views/Login')
     },
-    dashboard
+    dashboard,
+    component
   ]
 })
